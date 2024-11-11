@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WVM.Managment.Domain.Test", "UnitTest\WVM.Managment.Domain.Test\WVM.Managment.Domain.Test.csproj", "{5B699D81-3EE1-456D-86A3-DB2A03C6801A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WVM.Management.infrastructure", "Shard\WVM.Management.infrastructure\WVM.Management.infrastructure.csproj", "{11774A37-9370-45AD-A06E-EF0629499075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{5B699D81-3EE1-456D-86A3-DB2A03C6801A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B699D81-3EE1-456D-86A3-DB2A03C6801A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B699D81-3EE1-456D-86A3-DB2A03C6801A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11774A37-9370-45AD-A06E-EF0629499075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11774A37-9370-45AD-A06E-EF0629499075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11774A37-9370-45AD-A06E-EF0629499075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11774A37-9370-45AD-A06E-EF0629499075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{8C5E2BA9-DAEE-4BD4-915C-81A7A98FC864} = {74E956B5-7054-4FCF-9EB0-A2B50AF647C4}
 		{F6F81732-2B31-4751-A17F-179202745442} = {D47531FC-41EA-422A-ACAB-C9D39BB4CD40}
 		{5B699D81-3EE1-456D-86A3-DB2A03C6801A} = {15861342-9A82-4501-BAEB-D852B4528E81}
+		{11774A37-9370-45AD-A06E-EF0629499075} = {D47531FC-41EA-422A-ACAB-C9D39BB4CD40}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F09E2B6B-BFB3-4FE9-A34B-5A18C35A3D61}

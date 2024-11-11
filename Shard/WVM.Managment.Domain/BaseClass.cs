@@ -3,6 +3,9 @@
     public abstract class BaseClass:IEquatable<BaseClass>
     {
         public Guid Id { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsDeleted { get; set; }
 
         public bool Equals(BaseClass? other)
         {

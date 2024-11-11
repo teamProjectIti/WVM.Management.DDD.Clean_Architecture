@@ -38,8 +38,8 @@ namespace WVM.Managment.Domain.Test
             var Id = new Guid();
             var res = new FakeBreedServices();
             var breedId = new BreedId(res.breeds[0].Id, res);
-            var pet = new Pet(Id, "test", 13, new Weight(23), SexOfPet.Male, breedId) { };
-            var pet2 = new Pet(Id, "tes2", 24, new Weight(32), SexOfPet.Male, breedId) { };
+            var pet = new Pet(Id, "test", 13, 23m, SexOfPet.Male, breedId) { };
+            var pet2 = new Pet(Id, "tes2", 24, 32m, SexOfPet.Male, breedId) { };
 
             Assert.True(pet != pet2);
         }
